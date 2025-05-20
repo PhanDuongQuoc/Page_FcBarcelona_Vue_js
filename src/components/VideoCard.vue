@@ -1,5 +1,5 @@
 <template>
-  <div class="col-lg-4 col-md-12 mb-4 new-card" style="width: 500px; margin-left: 5px;border-radius: 8px;">
+  <div class="col-lg-4 col-md-12 mb-4 new-card" style="width: 470px; margin-left: 5px;border-radius: 8px; margin-left: auto;margin-right: auto;">
     <div class="bg-video hover-zoom ripple shadow-1-strong rounded">
       <div class="video-wrapper">
         <iframe

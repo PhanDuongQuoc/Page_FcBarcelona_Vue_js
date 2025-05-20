@@ -11,7 +11,7 @@
           :src="story.image"
           :alt="story.name"
           class="card-img img-fluid w-100"
-          style="height: 250px; object-fit: contain;"
+          style="height: 250px; "
         />
 
         <div

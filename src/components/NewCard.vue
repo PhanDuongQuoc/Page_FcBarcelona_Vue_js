@@ -1,8 +1,7 @@
 <template>
-  <div class="col-lg-4 col-md-12 mb-4 new-card" style="border-radius: 8px; margin-left: 5px;width: 500px;" >
-        <div class="bg-image hover-zoom ripple shadow-1-strong rounded">
+        <div class="bg-image hover-zoom ripple shadow-1-strong rounded " style="width:470px; margin-left: auto;margin-right: auto;margin-bottom: 20px;">
           <img :src="newsItem.image"
-            class="w-100" style="height: 300px;" />
+            class="w-100" style="height: 300px; width: 100%;" />
           <a href="#!" style="text-decoration: none;">
             <div class="mask" style="background-color: #031b4a">
                 <div class="d-flex justify-content-start align-items-start h-100">
@@ -14,7 +13,6 @@
             </div>
           </a>
         </div>
-      </div>
 </template>
 <script>
     export default{
@@ -25,7 +23,7 @@
     }
 </script>
 <style scoped>
-.new-card:hover{
+.bg-image:hover{
     transform: scale(1.03);
     box-shadow: 0 8px 16px #880000 !important;
 }

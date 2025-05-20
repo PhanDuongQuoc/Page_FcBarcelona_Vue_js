@@ -1,6 +1,6 @@
 <template>
-      <div class="col-lg-4 col-md-12 mb-4 product-card" style="border-radius: 8px;" >
-        <div class="bg-image hover-zoom ripple shadow-1-strong rounded">
+      <div class="col-lg-4 col-md-12 mb-4 product-card" style="border-radius: 8px; width: 470px;margin-left: auto;margin-right: auto;" >
+        <div class="bg-image hover-zoom ripple shadow-1-strong rounded" >
           <img :src="product.image"
             class="w-100" style="height: 200px;" />
           <a href="#!">

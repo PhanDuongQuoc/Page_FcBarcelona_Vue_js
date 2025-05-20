@@ -11,7 +11,7 @@
           :src="player.image"
           :alt="player.name"
           class="card-img img-fluid w-100"
-          style="height: 250px; object-fit: contain;"
+          style="height: 260px;"
         />
 
         <div
