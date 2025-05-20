@@ -62,8 +62,6 @@
 
 
    <div class="product" style="margin-top: 50px;">
-    
-
     <div class="d-flex justify-content-between align-items-center mb-3" style="margin-left: 20px;">
             <h1 class="text-uppercase fw-bold">Barça Store</h1>
     </div>
