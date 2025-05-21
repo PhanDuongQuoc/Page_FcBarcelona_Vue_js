@@ -35,7 +35,7 @@ export default {
   },
   methods: {
     generatePetals() {
-      const count = 40;
+      const count = 20;
       const width = window.innerWidth;
       this.petals = [];
 

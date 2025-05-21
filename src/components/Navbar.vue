@@ -20,8 +20,8 @@
             <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
             <li class="nav-item"><a class="nav-link" href="/about">About</a></li>
             <li class="nav-item"><a class="nav-link" href="/player">Players</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Teams</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Store</a></li>
+            <li class="nav-item"><a class="nav-link" href="/team">Teams</a></li>
+            <li class="nav-item"><a class="nav-link" href="/store">Store</a></li>
             <li class="nav-item"><a class="nav-link" href="#">News</a></li>
             <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
           </ul>
@@ -44,6 +44,9 @@
             </a>
             <a href="#" class="btn btn-outline-light btn-sm text-warning border-0" title="Register">
               <i class="fas fa-user-plus"></i> 
+            </a>
+            <a href="#" class="btn btn-outline-light btn-sm text-warning border-0" title="Cart">
+              <i class="fas fa-shopping-cart"></i>
             </a>
           </div>
 

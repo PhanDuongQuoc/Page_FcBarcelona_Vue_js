@@ -1,6 +1,6 @@
 <template>
 
-  <div class="col-md-4 mb-4" style="width: 300px; margin-left: 50px; margin-right: 20px;   box-shadow: 0 8px 16px #031b4a !important;border-radius: 8px;margin-top: 20px; " >
+  <div class="col-md-4 mb-4" style="width: 280px; margin-left: 50px; margin-right: 20px;   box-shadow: 0 8px 16px #031b4a !important;border-radius: 8px;margin-top: 20px; " >
     <div
       class="card shadow-sm player-card border-0"
       @click="$router.push(`/player/${player.id}`)"

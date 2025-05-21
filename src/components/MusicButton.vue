@@ -14,7 +14,7 @@
       ></i>
     </button>
 
-    <span class="play-music-text ms-3" @click="toggleMusic" style="cursor: pointer;">
+    <span class="play-music-text ms-3 text-warning" @click="toggleMusic" style="cursor: pointer;">
       {{ isPlaying ? 'Playing...' : 'Music In Barcelona' }}
     </span>
 
@@ -87,7 +87,6 @@ export default {
 .play-music-text {
   font-weight: 600;
   font-size: 18px;
-  color: #031b4a; 
   user-select: none;
   transition: color 0.3s ease;
 }
