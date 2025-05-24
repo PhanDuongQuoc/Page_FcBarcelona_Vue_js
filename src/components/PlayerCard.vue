@@ -1,6 +1,6 @@
 <template>
 
-  <div class="col-md-4 mb-4" style="width: 280px; margin-left: 50px; margin-right: 20px;   box-shadow: 0 8px 16px #031b4a !important;border-radius: 8px;margin-top: 20px; " >
+  <div class="col-md-4 mb-4" style="width: 280px; margin-left: 50px; margin-right: 45px;   box-shadow: 0 8px 16px #031b4a !important;border-radius: 8px;margin-top: 20px;" >
     <div
       class="card shadow-sm player-card border-0"
       @click="$router.push(`/player/${player.id}`)"
@@ -11,7 +11,7 @@
           :src="player.image"
           :alt="player.name"
           class="card-img img-fluid w-100"
-          style="height: 260px;"
+          style="height: 260px;object-fit: cover;"
         />
 
         <div
@@ -52,6 +52,7 @@ export default {
   .player-card {
     height: 100%;
     overflow: hidden;
+    
   }
 
   .player-card:hover {

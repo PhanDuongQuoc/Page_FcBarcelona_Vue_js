@@ -5,6 +5,7 @@ import PlayerDetail from '../views/PlayerDetail.vue'
 import Player from '../views/Player.vue'
 import Team from '../views/Team.vue'
 import Store from '@/views/Store.vue'
+import New from '@/views/News.vue'
 
 const routes = [
   { path: '/', component: Home },
@@ -12,7 +13,8 @@ const routes = [
   { path: '/player/:id', component: PlayerDetail },
   {path:'/player',component:Player},
   {path:'/team',component:Team},
-  {path:'/store',component:Store}
+  {path:'/store',component:Store},
+  {path:'/new',component:New}
 ]
 
 const router = createRouter({

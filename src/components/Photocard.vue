@@ -1,7 +1,7 @@
 <template>
   <div class="col-md-4 col-sm-6 mb-4 team-card" style="width: 400px;">
     <div class="card h-100 shadow-sm border-0">
-      <img :src="photoItem.image" class="card-img-top" :alt="photoItem.title">
+      <img :src="photoItem.image" class="card-img-top" :alt="photoItem.title" style="object-fit: cover;">
       <div class="card-body">
         <h5 class="card-title text-uppercase" style="color:#031b4a;">
           <i class="bi bi-camera-fill me-2 text-primary"></i>{{ photoItem.title }}

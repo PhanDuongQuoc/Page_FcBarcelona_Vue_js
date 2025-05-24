@@ -1,7 +1,7 @@
 <template>
         <div class="bg-image hover-zoom ripple shadow-1-strong rounded " style="width:470px; margin-left: auto;margin-right: auto;margin-bottom: 20px;">
           <img :src="newsItem.image"
-            class="w-100" style="height: 300px; width: 100%;" />
+            class="w-100" style="height: 300px; width: 100%;object-fit: cover;" />
           <a href="#!" style="text-decoration: none;">
             <div class="mask" style="background-color: #031b4a">
                 <div class="d-flex justify-content-start align-items-start h-100">

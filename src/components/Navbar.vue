@@ -22,7 +22,7 @@
             <li class="nav-item"><a class="nav-link" href="/player">Players</a></li>
             <li class="nav-item"><a class="nav-link" href="/team">Teams</a></li>
             <li class="nav-item"><a class="nav-link" href="/store">Store</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">News</a></li>
+            <li class="nav-item"><a class="nav-link" href="/new">News</a></li>
             <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
           </ul>
 

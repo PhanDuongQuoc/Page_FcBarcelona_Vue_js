@@ -54,6 +54,7 @@
           v-for="player in players"
           :key="player.id"
           :player="player"
+          style="justify-content:flex-start;"
         />
       </div>
     </div>
@@ -146,7 +147,8 @@ export default {
         { id: 3,  name: 'Name player', image: 'https://www.fcbarcelona.com/photo-resources/2024/10/13/2b17db58-6bb5-40fb-b978-65b2fea50db1/21-De_Jong-M.jpg?width=1680&height=1050', position: 'Striker' },
         { id: 4,  name: 'Name player', image:'https://www.fcbarcelona.com/photo-resources/2024/10/13/f90227fc-4cca-4245-8d96-d1c14f5dcc9a/11-Raphinha-M.jpg?width=1680&height=1050', position: 'Striker' },
         { id: 5,  name: 'Name player', image:'https://www.fcbarcelona.com/photo-resources/2024/10/13/34c0073f-7235-4776-a508-8fccc377f57b/23-Kounde-M.jpg?width=1680&height=1050', position: 'Striker' },
-        
+        { id: 6,  name: 'Name player', image:'https://www.fcbarcelona.com/photo-resources/2024/10/13/d650999a-797a-4326-b0fe-cc5e1d8a9322/06-Gavi-M.jpg?width=940&height=940', position: 'Striker' },
+
 
       ],
       products:[
@@ -417,6 +419,7 @@ export default {
   .player-list, .story-card, .Maches ,.ticket-card{
     display: flex;
     flex-wrap: wrap; 
+    
   }
 
 
