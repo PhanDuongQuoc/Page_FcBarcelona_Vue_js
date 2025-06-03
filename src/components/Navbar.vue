@@ -23,7 +23,7 @@
             <li class="nav-item"><a class="nav-link" href="/team">Teams</a></li>
             <li class="nav-item"><a class="nav-link" href="/store">Store</a></li>
             <li class="nav-item"><a class="nav-link" href="/new">News</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+            <li class="nav-item"><a class="nav-link" href="/contact">Contact</a></li>
           </ul>
 
           <form class="d-flex me-3 " role="search">
